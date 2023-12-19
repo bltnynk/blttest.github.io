@@ -9,7 +9,6 @@ baseURL: "https://johnny1188.github.io" # Website URL
 ############################
 ## LANGUAGE
 ############################
-
 defaultContentLanguage: en
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
