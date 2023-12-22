@@ -3,16 +3,14 @@
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-# Appearance
-
+### Appearance
 appearance:
   theme_day: minimal
   theme_night: minimal
   font: minimal
   font_size: L
 
-# SEO
-
+### SEO
 marketing:
   seo:
     site_type: Person
@@ -29,8 +27,7 @@ marketing:
     google: ''
     baidu: ''
 
-# Site header
-
+### Site header
 header:
   navbar:
     enable: true
@@ -41,8 +38,7 @@ header:
     show_search: true
     highlight_active_link: true
 
-# Site footer
-
+### Site footer
 footer:
   copyright:
     notice: '© {year} Me. This work is licensed under {license}'
@@ -52,15 +48,13 @@ footer:
       share_alike: true
       allow_commercial: false
 
-# Localization
-
+### Localization
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
   address_format: en-us
 
-# Site features
-
+### Site features
 features:
   syntax_highlighter:
     theme_light: github-light
@@ -70,7 +64,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: "https://github.com/Johnny1188/personal-website"
+    url: "https://github.com/Johnny1188/johnny1188.github.io"
     content_dir: content
     branch: master
   avatar:
@@ -100,8 +94,7 @@ features:
     api_key: ''
     zoom: 15
 
-# Extensions
-
+### Extensions
 extensions:
   cms:
     branch: master
@@ -109,8 +102,7 @@ extensions:
   academicons:
     enable: true
 
-# Security
-
+### Security
 security:
   # Allow frame for embedding speaker notes in slides
   allow_frame: true
