@@ -127,7 +127,7 @@ Hello, I'm Jan, an undergraduate studying computer science at the Czech Technica
 - Optimization
 - Theoretical machine learning and deep learning theory
 - Meta-learning and cognitively inspired learning algorithms
-- Reinforcement learning
+- Reinforcement learning and control
 
 ## Why these topics?
 Essentially, my goal is to empower machines with broad cognitive capabilities, enabling them to adapt to changing, unknown environments and solve novel problems. While current AI systems already exist along this spectrum of generality and problem-solving, the current state is less than satisfying.
@@ -140,7 +140,7 @@ Since generality requires adaptation and learning[^1], the efficiency and speed 
 
 Any system we program on a computer inherently lacks **(1)**, and so there comes the need to train on large amounts of data to imbue priors similar to ours. Here is why I work on **optimization**, **theoretical machine learning**, and **deep learning theory** - to enable this large-scale (multimodal) training.
 
-Next, **(2)** - active learning - is crucial to the efficiency of our learning process. We do not learn passively but rather actively seek out information that is most relevant to our current task. **Reinforcement learning (RL)** is an incarnation of this. Furthermore, RL is also a very general framework under which we can study the interaction of an agent with its environment.
+Next, **(2)** - active learning - is crucial to the efficiency of our learning process. We do not learn passively but rather actively seek out information that is most relevant to our current task. **Reinforcement learning (RL)** is an incarnation of this. Moreover, RL and control theory also act as very general frameworks and engineering methodologies for an agent's interaction with its environment.
 
 Finally, as a cherry on the top that enables efficient use of what the system has learned, we might want to imbue **(3)** - self-inspection and self-guidance at inference ("reasoning"). This is where **meta-learning** and **cognitively inspired learning algorithms** come in.
 
