@@ -30,11 +30,9 @@ bio: My research interests include optimization, theoretical machine learning, d
 # Interests to show in About widget
 interests:
     - Optimization
-    - Theoretical machine learning
-    - Deep learning theory
+    - Theoretical ML/DL
     - Meta-learning
-    - Cognitively inspired learning algorithms
-    - Reinforcement learning
+    - Learning for control
 
 # Education to show in About widget
 education:
