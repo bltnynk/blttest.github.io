@@ -16,7 +16,7 @@ authors:
 #   - "Equal contribution"
 
 date: "2024-02-24T00:00:00Z"
-doi: ""
+doi: "10.5220/0012317000003636"
 
 # Schedule page publish date (NOT publication"s date).
 publishDate: "2017-01-01T00:00:00Z"
@@ -24,7 +24,7 @@ publishDate: "2017-01-01T00:00:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["Accepted"]
+publication_types: ["Published"]
 
 # Publication name and optional abbreviated publication name.
 publication: "16th International Conference on Agents and Artificial Intelligence (ICAART 2024)"
@@ -40,7 +40,7 @@ abstract: Optimization is an integral part of modern deep learning. Recently, th
 # Display this page in the Featured widget?
 # featured: false
 
-# Custom links (uncomment lines below)
+# # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
 #   url: http://example.org
@@ -76,6 +76,8 @@ url_pdf: "https://arxiv.org/pdf/2312.07174.pdf"
 #   Otherwise, set `slides: ""`.
 # slides: example
 ---
+
+Published in the proceedings of the **16th International Conference on Agents and Artificial Intelligence** - Volume 2: ICAART, 135–146. [https://doi.org/10.5220/0012317000003636](https://doi.org/10.5220/0012317000003636).
 
 Preprint available on [arXiv](https://arxiv.org/pdf/2312.07174.pdf).
 
