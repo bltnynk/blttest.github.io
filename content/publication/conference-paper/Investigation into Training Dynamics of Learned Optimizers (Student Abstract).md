@@ -4,7 +4,7 @@ authors:
     - admin
     - Petr Šimánek
 date: "2024-02-20T00:00:00Z"
-doi: ""
+doi: "10.1609/aaai.v38i21.30514"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-01-01T00:00:00Z"
@@ -12,7 +12,7 @@ publishDate: "2017-01-01T00:00:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["Accepted"]
+publication_types: ["Published"]
 
 # Publication name and optional abbreviated publication name.
 publication: "The 38th Annual AAAI Conference on Artificial Intelligence (AAAI-24)"
@@ -30,7 +30,7 @@ abstract: Modern machine learning heavily relies on optimization, and as deep le
 # links:
 # - name: Custom Link
 #   url: http://example.org
-# url_pdf: http://arxiv.org/pdf/1512.04133v1
+url_pdf: https://doi.org/10.1609/aaai.v38i21.30514
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_dataset: '#'
 # url_poster: '#'
@@ -61,6 +61,7 @@ abstract: Modern machine learning heavily relies on optimization, and as deep le
 #   Otherwise, set `slides: ""`.
 # slides: example
 ---
+Published in the proceedings of the proceedings of the AAAI Conference on Artificial Intelligence, 38(21), 23657-23658. [https://doi.org/10.1609/aaai.v38i21.30514](https://doi.org/10.1609/aaai.v38i21.30514).
 
 <!-- {{% callout note %}}
 Create your slides in Markdown - click the *Slides* button to check out the example.
