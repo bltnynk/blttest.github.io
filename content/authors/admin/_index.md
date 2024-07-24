@@ -17,29 +17,37 @@ status:
 superuser: true
 
 # Role/position/tagline
+# role: Master's Student of Computer Science
 role: Undergraduate Student of Computer Science
+
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Czech Technical University in Prague
-    url: https://fit.cvut.cz/en
+#   - name: École Polytechnique Fédérale de Lausanne (EPFL)
+#     url: https://www.epfl.ch/en/
+    - name: Czech Technical University in Prague
+      url: https://fit.cvut.cz/en
+
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include optimization, theoretical machine learning, deep learning theory, meta-learning, and cognitively inspired learning algorithms.
+bio: My research interests include meta-learning, cognitively inspired learning algorithms, active learning, and deep learning theory.
 
 # Interests to show in About widget
 interests:
-    - Optimization
-    - Theoretical ML/DL
     - Meta-learning
-    - Learning for control
+    - Cognitively inspired learning algorithms
+    - Active learning
+    - Theoretical ML/DL
 
 # Education to show in About widget
 education:
   courses:
+    # - course: Master’s degree in Computer Science
+    #   institution: École Polytechnique Fédérale de Lausanne (EPFL)
+    #   year: 2024 - 2026
     - course: Bachelor’s degree in Informatics, Specialization in Artificial Intelligence
       institution: Czech Technical University in Prague
-      year: 2024
+      year: 2021 - 2024
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -121,26 +129,26 @@ social:
 highlight_name: true
 ---
 
+<!-- Hello, I'm Jan, a master's student of computer science and a research scholar at École Polytechnique Fédérale de Lausanne (EPFL). -->
 Hello, I'm Jan, an undergraduate studying computer science at the Czech Technical University in Prague. At a high level, I'm interested in **how our minds work** and **how to build machines that can perceive, think, and learn**. More specifically, I'm interested in the following topics within the artificial intelligence/machine learning (AI/ML) field:
-- Optimization
-- Theoretical machine learning and deep learning theory
 - Meta-learning and cognitively inspired learning algorithms
-- Reinforcement learning and control
+- Active learning
+- Theoretical machine learning and deep learning theory
+
+---
 
 ## Why these topics?
-Essentially, my goal is to empower machines with broad cognitive capabilities, enabling them to adapt to changing, unknown environments and solve novel problems. While current AI systems already exist along this spectrum of generality and problem-solving, the current state is less than satisfying.
+Essentially, my goal is to better understand the mechanisms of the human mind and use this knowledge to empower machines with broad cognitive capabilities, enabling them to adapt to changing, unknown environments and solve novel problems. While current AI systems already exist along this spectrum of generality and problem-solving, the current state is less than satisfying.
 
 Since generality requires adaptation and learning[^1], the efficiency and speed of these processes are critical. And why are humans so good at this? My current understanding is that it mainly stems from the following three sources:
 
-1. **rich cognitive priors** (*innate knowledge*, evolution),
-2. **active learning**, and
-3. **self-inspection** and **self-guidance in our reasoning process**.
+1. **rich cognitive priors** (*innate knowledge*, evolution)
+2. **active learning**
+3. **self-modeling** and **self-guidance in our reasoning process**
 
-Any system we program on a computer inherently lacks **(1)**, and so there comes the need to train on large amounts of data to imbue priors similar to ours. Here is why I work on **optimization**, **theoretical machine learning**, and **deep learning theory** - to enable this large-scale (multimodal) training.
+Any system we program on a computer inherently lacks **(1)**, so there comes the need to train on large amounts of data to imbue priors similar to ours. This is why I'm interested in **theoretical machine learning** and **deep learning theory** - to gain insights into the inner workings of ML models which would enable us to design more efficient large-scale (multimodal) training. With the same motivation in mind, **(2) active learning** is crucial to the efficiency of the human learning process. We do not learn passively but rather actively seek out information that is most relevant to our current task.
 
-Next, **(2)** - active learning - is crucial to the efficiency of our learning process. We do not learn passively but rather actively seek out information that is most relevant to our current task. **Reinforcement learning (RL)** is an incarnation of this. Moreover, RL and control theory also act as very general frameworks and engineering methodologies for an agent's interaction with its environment.
-
-Finally, as a cherry on the top that enables efficient use of what the system has learned, we might want to imbue **(3)** - self-inspection and self-guidance at inference ("reasoning"). This is where **meta-learning** and **cognitively inspired learning algorithms** come in.
+Finally, as a cherry on top that enables efficient use of what the system has learned, **(3)** self-modeling and self-guidance at inference (second-order perception) seems to be of particular importance. This is where **meta-learning** and **cognitively inspired learning algorithms** come in. This is the least explored area of the three, but I believe it is crucial for the development of general AI and the most valuable direction from the cognitive/neuroscience perspective.
 
 If you see any flaws in my reasoning or just want to share your thoughts, please do not hesitate to [contact me](#contact). I'm always happy to discuss these topics.
 
