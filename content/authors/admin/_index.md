@@ -17,16 +17,13 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Master's Student of Computer Science
-# role: Undergraduate Student of Computer Science
+role: CS Master’s Student & AI/ML Research Scholar
 
 
 # Organizations/Affiliations to show in About widget
 organizations:
     - name: Swiss Federal Institute of Technology in Lausanne (EPFL)
       url: https://www.epfl.ch/en/
-    # - name: Czech Technical University in Prague
-    #   url: https://fit.cvut.cz/en
 
 
 # Short bio (displayed in user profile at end of posts)
@@ -131,7 +128,7 @@ highlight_name: true
 
 <!-- Hello, I'm Jan, an undergraduate studying computer science at the Czech Technical University in Prague. -->
 
-Hello, I'm Jan, a master's student of computer science and a research scholar at the Swiss Federal Institute of Technology in Lausanne (**EPFL**). At a high level, I'm interested in **(1) how the mind and cognition of humans and other diverse systems work**, and **(2) how to build machines that can perceive, think, and learn**. More specifically, I'm interested in the following topics within the artificial intelligence/machine learning (AI/ML) field:
+Hello, I'm Jan, a master's student in computer science and a research scholar at the Swiss Federal Institute of Technology in Lausanne (**EPFL**). At a high level, I'm interested in **(1) how the mind and cognition of humans and other diverse systems work**, and **(2) how to build machines that can perceive, think, and learn**. More specifically, I'm interested in the following topics within the artificial intelligence/machine learning (AI/ML) field:
 - Reinforcement learning and data-driven control
 - Meta-learning and self-modeling
 
