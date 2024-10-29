@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: CS Master’s Student & AI/ML Research Scholar
+role: CS Master’s Student & AI/ML Research Assistant
 
 
 # Organizations/Affiliations to show in About widget
@@ -27,14 +27,19 @@ organizations:
 
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include reinforcement learning, data-driven control, meta-learning, and self-modeling.
+# bio: My research interests include reinforcement learning, data-driven control, meta-learning, and self-modeling.
+bio: I am a master's student in computer science at EPFL, and a research assistant at the MLBio Lab. I am interested in data-driven control, meta-learning, (mechanistic) interpretability, sentient AI, and machine consciousness.
 
 # Interests to show in About widget
 interests:
-    - Reinforcement learning
+    #- Reinforcement learning
+    #- Data-driven control
+    #- Meta-learning
+    #- Self-modeling
     - Data-driven control
     - Meta-learning
-    - Self-modeling
+    - (Mechanistic) interpretability
+    - Sentient & conscious AI
 
 # Education to show in About widget
 education:
@@ -128,17 +133,24 @@ highlight_name: true
 
 <!-- Hello, I'm Jan, an undergraduate studying computer science at the Czech Technical University in Prague. -->
 
-Hello, I'm Jan, a master's student in computer science and a research scholar at the Swiss Federal Institute of Technology in Lausanne (**EPFL**). At a high level, I'm interested in **(1) how the mind and cognition of humans and other diverse systems work**, and **(2) how to build machines that can perceive, think, and learn**. More specifically, I'm interested in the following topics within the artificial intelligence/machine learning (AI/ML) field:
-- Reinforcement learning and data-driven control
-- Meta-learning and self-modeling
+My name is Jan, I am a master's student in computer science at EPFL and a research assistant at the [MLBio Lab](https://brbiclab.epfl.ch). Additionally, I conduct research on world models for reinforcement learning agents at the [Biorobotics Laboratory](https://www.epfl.ch/labs/biorob/).
+
+At a high level, I am interested in **(1) how the mind and cognition of humans and other diverse systems work**, and **(2) how to build machines that can perceive, think, and learn**.
+I find the intersection of machine learning, cognitive science, and philosophy the most exciting. Currently, this encompasses the following topics:
+- Data-driven control
+- (Mechanistic) interpretability
+- Reasoning
+- Sentient AI
+- Machine consciousness
+
+I am always happy to discuss these topics, so if you have any thoughts or questions, please do not hesitate to [contact me](#contact).
 
 ---
-
+<!-- 
 ## Why these topics?
 Essentially, my goal is to better understand the mechanisms of the mind and cognition, and use this knowledge to empower machines with broad cognitive capabilities, enabling them to adapt to changing, unknown environments and solve novel problems. While current AI systems already exist along this spectrum of generality and problem-solving, the current state seems less than satisfying to me.
 
 Since generality requires adaptation and learning[^1], the efficiency and speed of these processes are critical. And why are humans so good at this? My current understanding is that it mainly stems from the following three sources:
-
 1. **rich cognitive priors** (*innate knowledge*, evolution)
 2. **self-modeling** and **self-guidance in our reasoning process**
 3. **active learning**
@@ -150,5 +162,6 @@ Any system we program on a computer inherently lacks **(1)**, necessitating the 
 If you see any flaws in my reasoning or just want to share your thoughts, please do not hesitate to [contact me](#contact). I'm always happy to discuss these topics! If you have strong opinions or interest in machine consciousness, I'd be especially happy to hear from you :)
 
 [^1]: Implication of the **No Free Lunch Theorem(s)** in machine learning.
+-->
 
 {style="text-align: justify;"}
