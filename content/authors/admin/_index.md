@@ -28,7 +28,7 @@ organizations:
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include reinforcement learning, data-driven control, meta-learning, and self-modeling.
-bio: I am a master's student in computer science at EPFL, and a research assistant at the MLBio Lab. I am interested in data-driven control, meta-learning, (mechanistic) interpretability, sentient AI, and machine consciousness.
+bio: I am a master's student in computer science at EPFL, and a research assistant at the MLBio Lab. I am interested in data-driven control, (mechanistic) interpretability, meta-learning, reasoning, sentient AI, and machine consciousness.
 
 # Interests to show in About widget
 interests:
@@ -37,8 +37,9 @@ interests:
     #- Meta-learning
     #- Self-modeling
     - Data-driven control
-    - Meta-learning
     - (Mechanistic) interpretability
+    - Reasoning
+    - Meta-learning
     - Sentient & conscious AI
 
 # Education to show in About widget
