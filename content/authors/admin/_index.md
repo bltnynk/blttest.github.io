@@ -40,7 +40,7 @@ interests:
     - (Mechanistic) interpretability
     - Reasoning
     - Meta-learning
-    - Sentient & conscious AI
+    - Machine consciousness
 
 # Education to show in About widget
 education:
@@ -141,7 +141,6 @@ I find the intersection of machine learning, cognitive science, and philosophy t
 - Data-driven control
 - (Mechanistic) interpretability
 - Reasoning
-- Sentient AI
 - Machine consciousness
 
 I am always happy to discuss these topics, so if you have any thoughts or questions, please do not hesitate to [contact me](#contact).
