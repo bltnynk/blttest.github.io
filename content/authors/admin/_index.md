@@ -28,18 +28,20 @@ organizations:
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include reinforcement learning, data-driven control, meta-learning, and self-modeling.
-bio: I am a master's student in computer science at EPFL, and a research assistant at the MLBio Lab. I am interested in representation learning, (mechanistic) interpretability, meta-learning, reasoning, test-time training, and machine consciousness.
+# bio: I am a master's student in computer science at EPFL, and a research assistant at the MLBio Lab. I am interested in representation learning, (mechanistic) interpretability, meta-learning, reasoning, test-time training, and machine consciousness.
+bio: I am a master's student in computer science at EPFL, and a research assistant at the MLBio Lab. I am interested in representation learning, data-driven control, (mechanistic) interpretability, and meta-learning.
 
 # Interests to show in About widget
 interests:
     #- Reinforcement learning
-    #- Data-driven control
     #- Meta-learning
     #- Self-modeling
     - Representation learning
+    - Data-driven control
     - (Mechanistic) interpretability
-    - Meta-learning and second-order perception
-    - Test-time training
+    - Meta-learning
+    #- Meta-learning and second-order perception
+    # - Test-time training
 
 # Education to show in About widget
 education:
@@ -133,15 +135,18 @@ highlight_name: true
 
 <!-- Hello, I'm Jan, an undergraduate studying computer science at the Czech Technical University in Prague. -->
 
-My name is Jan, I am a master's student in computer science at EPFL and a research assistant at the [MLBio Lab](https://brbiclab.epfl.ch), where I work on unsupervised learning, meta-learning, and out-of-distribution generalization. Additionally, I conduct research on world models for reinforcement learning agents at the [Biorobotics Laboratory](https://www.epfl.ch/labs/biorob/).
+My name is Jan, I am a master's student in computer science at EPFL and a research assistant at the [MLBio Lab](https://brbiclab.epfl.ch), where I work on unsupervised learning, multimodal foundation models, and out-of-distribution generalization. Additionally, I conduct research on world models for reinforcement learning agents at the [Biorobotics Laboratory](https://www.epfl.ch/labs/biorob/).
 
-At a high level, I am interested in **(1) understanding how our mind and cognition, as well as those of other *diverse* systems, work** and **(2) building machines that can perceive, think, and learn**. This intersection of artificial intelligence, cognitive computational neuroscience, and philosophy excites me the most. While I approach these questions from a multidisciplinary perspective (drawing on my computational neuroscience background), my primary focus is on the computational, AI/ML part, particularly in the following areas:
+At a high level, I am interested in **(1) understanding how our mind and cognition, as well as those of other *diverse* systems, work** and **(2) building machines that can perceive, think, and learn**. This intersection of artificial intelligence, cognitive computational neuroscience, and philosophy excites me the most. While I approach these questions from a multidisciplinary perspective, my primary focus is on the computational part, particularly in the following areas:
 - Representation learning
+- Data-driven control
 - (Mechanistic) interpretability
-- Meta-learning and second-order perception
-- Test-time training
+- Meta-learning
+<!-- - Meta-learning and second-order perception
+- Test-time training -->
 
-I am always happy to discuss these topics, so if you have related thoughts or questions, please do not hesitate to [contact me](#contact). If you have strong opinions or an interest in machine consciousness, I'd be especially happy to hear from you :)
+I am always happy to discuss these topics, so if you have related thoughts or questions, please do not hesitate to [contact me](#contact).
+<!-- If you have strong opinions or an interest in machine consciousness, I'd be especially happy to hear from you :) -->
 
 ---
 <!-- 
