@@ -191,6 +191,17 @@ sections:
     design:
       columns: '2'
       view: citation
+    
+  - block: collection
+    content:
+      title: Other Writings
+      filters:
+        folders:
+          - other_writings
+        exclude_featured: true
+    design:
+      columns: '2'
+      view: compact
   
 #   - block: collection
 #     id: talks

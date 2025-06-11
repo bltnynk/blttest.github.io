@@ -29,7 +29,7 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include reinforcement learning, data-driven control, meta-learning, and self-modeling.
 # bio: I am a master's student in computer science at EPFL, and a research assistant at the MLBio Lab. I am interested in representation learning, (mechanistic) interpretability, meta-learning, reasoning, test-time training, and machine consciousness.
-bio: I am a master's student in computer science at EPFL, and a research assistant at the MLBio Lab. I am interested in representation learning, data-driven control, (mechanistic) interpretability, and meta-learning.
+bio: I am a master's student in computer science at EPFL, and a research assistant at the MLBio Lab. I am interested in representation learning, (mechanistic) interpretability, and meta-learning.
 
 # Interests to show in About widget
 interests:
@@ -37,7 +37,6 @@ interests:
     #- Meta-learning
     #- Self-modeling
     - Representation learning
-    - Data-driven control
     - (Mechanistic) interpretability
     - Meta-learning
     #- Meta-learning and second-order perception
@@ -137,9 +136,8 @@ highlight_name: true
 
 My name is Jan, I am a master's student in computer science at EPFL and a research assistant at the [MLBio Lab](https://brbiclab.epfl.ch), where I work on unsupervised learning, multimodal foundation models, and out-of-distribution generalization. Additionally, I conduct research on world models for reinforcement learning agents at the [Biorobotics Laboratory](https://www.epfl.ch/labs/biorob/).
 
-At a high level, I am interested in **(1) understanding how our mind and cognition, as well as those of other *diverse* systems, work** and **(2) building machines that can perceive, think, and learn**. This intersection of artificial intelligence and cognitive computational neuroscience excites me the most. While I approach these topics with a fairly multidisciplinary background, my primary focus is on the computational part, particularly in the following machine learning areas:
+At a high level, I am interested in **(1) understanding how our mind and cognition, as well as those of other *diverse* systems, work** and **(2) building machines that can perceive, think, and learn**. This intersection of artificial intelligence and cognitive computational neuroscience excites me the most. While I approach these topics with a fairly multidisciplinary background, my primary focus is on the computational part, particularly in the following areas:
 - Representation learning
-- Data-driven control
 - (Mechanistic) interpretability
 - Meta-learning
 <!-- - Meta-learning and second-order perception
