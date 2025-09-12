@@ -29,26 +29,26 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include reinforcement learning, data-driven control, meta-learning, and self-modeling.
 # bio: I am a master's student in computer science at EPFL, and a research assistant at the MLBio Lab. I am interested in representation learning, (mechanistic) interpretability, meta-learning, reasoning, test-time training, and machine consciousness.
-bio: I am a master's student in computer science at EPFL, and a research assistant at the MLBio Lab. I am interested in representation learning, (mechanistic) interpretability, and meta-learning.
+bio: I am a master's student in computer science at EPFL, and a research assistant at the Autonomous Systems Group at the University of Texas at Austin. I am interested in reinforcement learning, (mechanistic) interpretability, and meta-learning.
 
 # Interests to show in About widget
 interests:
+    - Reinforcement learning
+    - (Mechanistic) interpretability
+    - Meta-learning
     #- Reinforcement learning
     #- Meta-learning
     #- Self-modeling
-    - Representation learning
-    - (Mechanistic) interpretability
-    - Meta-learning
     #- Meta-learning and second-order perception
     # - Test-time training
 
 # Education to show in About widget
 education:
   courses:
-    - course: Master’s degree in Computer Science
+    - course: Master's degree in Computer Science
       institution: Swiss Federal Institute of Technology in Lausanne (EPFL)
       year: 2024 - 2026
-    - course: Bachelor’s degree in Informatics, Specialization in Artificial Intelligence
+    - course: Bachelor's degree in Informatics, Specialization in Artificial Intelligence
       institution: Czech Technical University in Prague
       year: 2021 - 2024
 
@@ -134,16 +134,20 @@ highlight_name: true
 
 <!-- Hello, I'm Jan, an undergraduate studying computer science at the Czech Technical University in Prague. -->
 
-My name is Jan, I am a master's student in computer science at EPFL and a research assistant at the [MLBio Lab](https://brbiclab.epfl.ch), where I work on unsupervised learning, multimodal foundation models, and out-of-distribution generalization. Additionally, I conduct research on world models for reinforcement learning agents at the [Biorobotics Laboratory](https://www.epfl.ch/labs/biorob/).
+<!-- While I approach these topics with a fairly multidisciplinary background, my primary focus is on the computational part, particularly in the following areas: -->
 
-At a high level, I am interested in **(1) understanding how our mind and cognition, as well as those of other *diverse* systems, work** and **(2) building machines that can perceive, think, and learn**. This intersection of artificial intelligence and cognitive computational neuroscience excites me the most. While I approach these topics with a fairly multidisciplinary background, my primary focus is on the computational part, particularly in the following areas:
-- Representation learning
+My name is Jan, I am a master's student in computer science at EPFL and a research assistant at the [Autonomous Systems Group](https://autonomy.oden.utexas.edu/Groups/autonomous-systems-group) at the University of Texas at Austin, where I work on Large Language Models (LLMs) in strategy games. Additionally, I conduct research on world models for reinforcement learning agents at the [Biorobotics Laboratory](https://www.epfl.ch/labs/biorob/).
+
+At a high level, I am interested in **(1) understanding how our mind and cognition work** and **(2) building machines that can perceive, think, and learn**. This intersection of artificial intelligence and cognitive computational neuroscience excites me the most. Currently, my primary research interests include the following areas:
+- Reinforcement learning
 - (Mechanistic) interpretability
 - Meta-learning
 <!-- - Meta-learning and second-order perception
 - Test-time training -->
 
 I am always happy to discuss these topics, so if you have related thoughts or questions, please do not hesitate to [contact me](#contact).
+
+**I am currently seeking a 6-month master's thesis industry internship for a February 2026 start.**
 <!-- If you have strong opinions or an interest in machine consciousness, I'd be especially happy to hear from you :) -->
 
 ---
