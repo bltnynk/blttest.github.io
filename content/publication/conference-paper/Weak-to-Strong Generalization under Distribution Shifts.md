@@ -1,35 +1,39 @@
 ---
-title: "Decoding Visual Stimuli from Cortical Activity using Neural Networks"
+title: "Weak-to-Strong Generalization under Distribution Shifts"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
+    - Myeongho Jeon
     - admin
-    - Ján Antolík (supervisor)
+    - Suhwan Choi
+    - Maria Brbic
 
 # Author notes (optional)
-# author_notes:
+author_notes:
 #   - "First author"
-#   - "Equal contribution"
+  - "Equal contribution"
+  - "Equal contribution"
+  - "Equal contribution"
 #   - "Equal contribution"
 
-date: "2024-05-15T00:00:00Z"
+date: "2025-09-18T00:00:00Z"
 # doi: "10.5220/0012317000003636"
 
 # Schedule page publish date (NOT publication"s date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2025-09-17T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["Published"]
+publication_types: ["Accepted"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Bachelor's Thesis, Czech Technical University Digital Library"
+publication: "The Thirty-ninth Annual Conference on Neural Information Processing Systems (**NeurIPS 2025**)"
 # publication_short: ""
 
-abstract: This thesis explores the application of deep learning techniques for reconstructing visual stimuli from neural activity in the primary visual cortex (V1). The focus is placed on overcoming the scarcity of biological data by developing data-efficient architectures, analyzing the impact of synthetic training data, employing adversarial and transfer learning, and introducing novel auxiliary optimization objectives. A series of experiments is conducted using data from in silico simulations of cat V1 and in vivo recordings from mouse V1, highlighting the best-performing decoding approach and offering suggestions for future research. Notably, the methods developed in this thesis outperform some existing state-of-the-art decoding techniques according to several widely used evaluation measures. Overall, the results underscore the potential of machine learning in neural activity decoding and pave the way for future advancements in brain-computer interfaces and neuroscientific research.
+abstract: As future superhuman models become increasingly complex, accurately supervising their behavior may exceed human capabilities. Recent works have demonstrated that in such scenario weak models can effectively supervise strong models, a phenomenon known as weak-to-strong generalization. However, we find that naive weak-to-strong generalization fails under distribution shifts, often leading to worse performance of the strong model than its weak supervisors. To address this, we propose RAVEN, a robust weak-to-strong generalization framework that dynamically learns the optimal combinations of weak models in addition to parameters of the strong model. We demonstrate the effectiveness of RAVEN on image classification, text classification and preference alignment tasks. RAVEN outperforms alternative baselines by over 40% on out-of-distribution tasks while matching or surpassing existing methods on in-distribution tasks. Moreover, our results show that RAVEN assigns higher weights to more accurate weak models, demonstrating its ability to automatically identify trustworthy supervision.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -40,11 +44,11 @@ abstract: This thesis explores the application of deep learning techniques for r
 # featured: false
 
 # # Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
+links:
+- name: OpenReview
+  url: https://openreview.net/forum?id=fEg31YjLct
 
-url_pdf: "https://dspace.cvut.cz/bitstream/handle/10467/115880/F8-BP-2024-Sobotka-Jan-thesis.pdf?sequence=-1&isAllowed=y"
+# url_pdf: "https://openreview.net/forum?id=fEg31YjLct"
 # url_code: "https://github.com/HugoBlox/hugo-blox-builder"
 # url_dataset: "https://github.com/HugoBlox/hugo-blox-builder"
 # url_poster: ""
@@ -76,9 +80,8 @@ url_pdf: "https://dspace.cvut.cz/bitstream/handle/10467/115880/F8-BP-2024-Sobotk
 # slides: example
 ---
 
-Bachelor's Thesis in the Czech Technical University Digital Library (ČVUT DSpace). [dspace.cvut.cz](https://dspace.cvut.cz/handle/10467/115880?locale-attribute=en)
 
-Available as a PDF [here](https://dspace.cvut.cz/bitstream/handle/10467/115880/F8-BP-2024-Sobotka-Jan-thesis.pdf?sequence=-1&isAllowed=y).
+
 
 <!-- {{% callout note %}}
 Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
