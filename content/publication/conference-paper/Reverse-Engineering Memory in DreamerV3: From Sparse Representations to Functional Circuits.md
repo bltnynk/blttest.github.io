@@ -1,28 +1,27 @@
 ---
-title: "Weak-to-Strong Generalization under Distribution Shifts"
+title: "Reverse-Engineering Memory in DreamerV3: From Sparse Representations to Functional Circuits"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-    - Myeongho Jeon
     - admin
-    - Suhwan Choi
-    - Maria Brbic
+    - Auke Ijspeert
+    - Guillaume Bellegarda
 
 # Author notes (optional)
-author_notes:
-#   - "First author"
-  - "Equal contribution"
-  - "Equal contribution"
-  - "Equal contribution"
+# author_notes:
+# #   - "First author"
 #   - "Equal contribution"
+#   - "Equal contribution"
+#   - "Equal contribution"
+# #   - "Equal contribution"
 
-date: "2025-09-18T00:00:00Z"
+date: "2025-09-17T00:00:00Z"
 # doi: "10.5220/0012317000003636"
 
 # Schedule page publish date (NOT publication"s date).
-publishDate: "2025-09-17T00:00:00Z"
+publishDate: "2025-09-16T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -30,10 +29,10 @@ publishDate: "2025-09-17T00:00:00Z"
 publication_types: ["Accepted"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Conference on Neural Information Processing Systems (**NeurIPS 2025**)"
+publication: "Conference on Neural Information Processing Systems (**NeurIPS 2025, Oral at workshop CogInterp: Interpreting Cognition in Deep Learning Models**)"
 # publication_short: ""
 
-abstract: As future superhuman models become increasingly complex, accurately supervising their behavior may exceed human capabilities. Recent works have demonstrated that in such scenario weak models can effectively supervise strong models, a phenomenon known as weak-to-strong generalization. However, we find that naive weak-to-strong generalization fails under distribution shifts, often leading to worse performance of the strong model than its weak supervisors. To address this, we propose RAVEN, a robust weak-to-strong generalization framework that dynamically learns the optimal combinations of weak models in addition to parameters of the strong model. We demonstrate the effectiveness of RAVEN on image classification, text classification and preference alignment tasks. RAVEN outperforms alternative baselines by over 40% on out-of-distribution tasks while matching or surpassing existing methods on in-distribution tasks. Moreover, our results show that RAVEN assigns higher weights to more accurate weak models, demonstrating its ability to automatically identify trustworthy supervision.
+abstract: Understanding how reinforcement learning (RL) agents with recurrent neural network architectures encode and use memory remains an open question in the field of interpretability. In this work, we investigate these internal memory dynamics of DreamerV3, a state-of-the-art model-based deep RL agent. Our analysis reveals that DreamerV3 relies on sparse memory representations and on small internal subnetworks (circuits) to store and act on memory, with only a small subset of the original model parameters sufficient to control goal-directed behavior. We show that using a differentiable circuit extraction method, we can identify these subnetworks that retain full task performance with as little as 0.16% of the original parameters. Furthermore, we demonstrate that these sparse circuits emerge early in training and can retroactively improve undertrained models when applied as binary masks. Finally, we develop a gradient-based model editing approach that leverages these circuits for a reliable post hoc modification of the agent's behavior, achieving an average edit success rate of 90%. Our work demonstrates how sparse memory circuits provide a powerful lever for understanding and editing deep RL systems.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -46,9 +45,9 @@ abstract: As future superhuman models become increasingly complex, accurately su
 # # Custom links (uncomment lines below)
 links:
 - name: OpenReview
-  url: https://openreview.net/forum?id=fEg31YjLct
+  url: https://openreview.net/forum?id=KKjt8VADoT
 
-# url_pdf: "https://openreview.net/forum?id=fEg31YjLct"
+# url_pdf: "https://openreview.net/forum?id=V3WQoshcZe"
 # url_code: "https://github.com/HugoBlox/hugo-blox-builder"
 # url_dataset: "https://github.com/HugoBlox/hugo-blox-builder"
 # url_poster: ""

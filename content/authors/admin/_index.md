@@ -147,7 +147,7 @@ At a high level, I am interested in **(1) understanding how our mind and cogniti
 
 I am always happy to discuss these topics, so if you have related thoughts or questions, please do not hesitate to [contact me](#contact).
 
-**I am currently seeking a 6-month master's thesis industry internship for a February 2026 start.**
+**Actively looking for a 6-month master's thesis internship in industry (Start: Feb 2026).**
 <!-- If you have strong opinions or an interest in machine consciousness, I'd be especially happy to hear from you :) -->
 
 ---
