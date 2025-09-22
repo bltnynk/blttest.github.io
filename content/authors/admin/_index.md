@@ -29,13 +29,14 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include reinforcement learning, data-driven control, meta-learning, and self-modeling.
 # bio: I am a master's student in computer science at EPFL, and a research assistant at the MLBio Lab. I am interested in representation learning, (mechanistic) interpretability, meta-learning, reasoning, test-time training, and machine consciousness.
-bio: I am a master's student in computer science at EPFL, and a research assistant at the Autonomous Systems Group at the University of Texas at Austin. I am interested in reinforcement learning, (mechanistic) interpretability, and meta-learning.
+bio: I am a master's student in computer science at EPFL, and a research assistant at the Autonomous Systems Group at the University of Texas at Austin. I am interested in (mechanistic) interpretability, reinforcement learning, meta-learning, and ML applications in brain-computer interfaces.
 
 # Interests to show in About widget
 interests:
-    - Reinforcement learning
     - (Mechanistic) interpretability
+    - Reinforcement learning
     - Meta-learning
+    - Machine learning applications in brain-computer interfaces and neuroprosthetics
     #- Reinforcement learning
     #- Meta-learning
     #- Self-modeling
@@ -139,9 +140,10 @@ highlight_name: true
 My name is Jan, I am a master's student in computer science at EPFL and a research assistant at the [Autonomous Systems Group](https://autonomy.oden.utexas.edu/Groups/autonomous-systems-group) at the University of Texas at Austin, where I work on Large Language Models (LLMs) in strategy games. Additionally, I conduct research on world models for reinforcement learning agents at the [Biorobotics Laboratory](https://www.epfl.ch/labs/biorob/).
 
 At a high level, I am interested in **(1) understanding how our mind and cognition work** and **(2) building machines that can perceive, think, and learn**. This intersection of artificial intelligence and cognitive computational neuroscience excites me the most. Currently, my primary research interests include the following areas:
-- Reinforcement learning
 - (Mechanistic) interpretability
+- Reinforcement learning
 - Meta-learning
+- Machine learning applications in brain-computer interfaces and neuroprosthetics
 <!-- - Meta-learning and second-order perception
 - Test-time training -->
 
