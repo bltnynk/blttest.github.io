@@ -27,7 +27,7 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["Submitted"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Optimization Letters (Springer)"
+publication: "*Optimization Letters (Springer)*"
 # publication_short: ""
 
 abstract: Fractional Gradient Descent (FGD) offers a novel and promising way to accelerate optimization by incorporating fractional calculus into machine learning. Although FGD has shown encouraging initial results across various optimization tasks, it faces significant challenges with convergence behavior and hyperparameter selection. Moreover, the impact of its hyperparameters is not fully understood, and scheduling them is particularly difficult in non-convex settings such as neural network training. To address these issues, we propose a novel approach called Learning to Optimize Caputo Fractional Gradient Descent (L2O-CFGD), which meta-learns how to dynamically tune the hyperparameters of Caputo FGD (CFGD). Our method's meta-learned schedule outperforms CFGD with static hyperparameters found through an extensive search and, in some tasks, achieves performance comparable to a fully black-box meta-learned optimizer. L2O-CFGD can thus serve as a powerful tool for researchers to identify high-performing hyperparameters and gain insights on how to leverage the history-dependence of the fractional differential in optimization.

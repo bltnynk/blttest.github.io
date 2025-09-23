@@ -15,7 +15,7 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["Published"]
 
 # Publication name and optional abbreviated publication name.
-publication: "The 38th Annual AAAI Conference on Artificial Intelligence (AAAI-24)"
+publication: "*The 38th Annual AAAI Conference on Artificial Intelligence (**AAAI-24**)*"
 # publication_short: ""
 
 abstract: Modern machine learning heavily relies on optimization, and as deep learning models grow more complex and data-hungry, the search for efficient learning becomes crucial. Learned optimizers disrupt traditional handcrafted methods such as SGD and Adam by learning the optimization strategy itself, potentially speeding up training. However, the learned optimizers' dynamics are still not well understood. To remedy this, our work explores their optimization trajectories from the perspective of network architecture symmetries and proposed parameter update distributions.

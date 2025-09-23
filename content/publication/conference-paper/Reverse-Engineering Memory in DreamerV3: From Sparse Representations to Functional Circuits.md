@@ -29,7 +29,7 @@ publishDate: "2025-09-16T00:00:00Z"
 publication_types: ["Accepted"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Conference on Neural Information Processing Systems (**NeurIPS 2025, workshop CogInterp: Interpreting Cognition in Deep Learning Models**)"
+publication: "*Conference on Neural Information Processing Systems (**NeurIPS 2025, Spotlight at Mechanistic Interpretability Workshop**)*"
 # publication_short: ""
 
 abstract: Understanding how reinforcement learning (RL) agents with recurrent neural network architectures encode and use memory remains an open question in the field of interpretability. In this work, we investigate these internal memory dynamics of DreamerV3, a state-of-the-art model-based deep RL agent. Our analysis reveals that DreamerV3 relies on sparse memory representations and on small internal subnetworks (circuits) to store and act on memory, with only a small subset of the original model parameters sufficient to control goal-directed behavior. We show that using a differentiable circuit extraction method, we can identify these subnetworks that retain full task performance with as little as 0.16% of the original parameters. Furthermore, we demonstrate that these sparse circuits emerge early in training and can retroactively improve undertrained models when applied as binary masks. Finally, we develop a gradient-based model editing approach that leverages these circuits for a reliable post hoc modification of the agent's behavior, achieving an average edit success rate of 90%. Our work demonstrates how sparse memory circuits provide a powerful lever for understanding and editing deep RL systems.

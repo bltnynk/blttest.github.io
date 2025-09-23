@@ -30,7 +30,7 @@ publishDate: "2025-09-17T00:00:00Z"
 publication_types: ["Accepted"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Conference on Neural Information Processing Systems (**NeurIPS 2025**)"
+publication: "*Conference on Neural Information Processing Systems (**NeurIPS 2025**)*"
 # publication_short: ""
 
 abstract: As future superhuman models become increasingly complex, accurately supervising their behavior may exceed human capabilities. Recent works have demonstrated that in such scenario weak models can effectively supervise strong models, a phenomenon known as weak-to-strong generalization. However, we find that naive weak-to-strong generalization fails under distribution shifts, often leading to worse performance of the strong model than its weak supervisors. To address this, we propose RAVEN, a robust weak-to-strong generalization framework that dynamically learns the optimal combinations of weak models in addition to parameters of the strong model. We demonstrate the effectiveness of RAVEN on image classification, text classification and preference alignment tasks. RAVEN outperforms alternative baselines by over 40% on out-of-distribution tasks while matching or surpassing existing methods on in-distribution tasks. Moreover, our results show that RAVEN assigns higher weights to more accurate weak models, demonstrating its ability to automatically identify trustworthy supervision.
