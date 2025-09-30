@@ -44,6 +44,8 @@ abstract: Decoding visual stimuli from neural population activity is crucial for
 
 # # Custom links (uncomment lines below)
 links:
+- name: Poster
+  url: https://neurips.cc/virtual/2025/poster/117726
 - name: OpenReview
   url: https://openreview.net/forum?id=V3WQoshcZe
 
