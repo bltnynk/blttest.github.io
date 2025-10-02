@@ -1,0 +1,179 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+
+<script>
+  window.categoriesList = [
+    { name: "Movies", slug: "movies" },
+    { name: "Photography", slug: "photography" },
+    { name: "Music", slug: "music" },
+  ];
+
+  document.addEventListener("DOMContentLoaded", function () {
+
+    // categories HTML
+    const categoriesHTML = `
+      <aside class="blog-categories">
+        <div class="category-box">
+          <div class="category-title">Categories</div>
+          <div class="category-menu">
+            <ul>
+              ${window.categoriesList.map(cat => `
+                <li><a href="/category/${cat.slug}"><i class="fas fa-folder mr-1"></i>${cat.name}</a></li>
+              `).join('')}
+            </ul>
+          </div>
+        </div>
+      </aside>
+    `;
+
+    // Find the blog post list container
+    const wrappers = document.querySelectorAll(".universal-wrapper, .article-container");
+    let blogContainer = null;
+
+    wrappers.forEach(wrapper => {
+      if (!wrapper.classList.contains("pt-3")) {
+        blogContainer = wrapper;
+      }
+    });
+
+    if (blogContainer) {
+        const div = document.createElement("div");
+        div.innerHTML = categoriesHTML;
+        blogContainer.appendChild(div);
+    } else {
+        console.error("Blog container not found! Could not inject categories.");
+    }
+
+    // Highlight the current category
+    const currentPath = window.location.pathname;
+    if (currentPath === "/blog/" || currentPath === "/blog") {
+      // no highligh on the main blog page
+      return;
+    }
+
+    const categoryElement = document.querySelector(".article-categories a");
+    let currentPostCategory = categoryElement ? categoryElement.textContent.trim() : null;
+
+    if (currentPostCategory) {
+      const categoryLinks = document.querySelectorAll(".category-box a");
+      categoryLinks.forEach(link => {
+        if (link.textContent.trim() === currentPostCategory) {
+          link.style.fontWeight = "450";
+          link.style.textDecoration = "underline";
+        }
+      });
+    }
+  });
+</script>
+
+<style>
+
+  .article-container {
+    max-width: 945px; /*default: 720px*/
+  }
+
+  .article-container h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .universal-wrapper h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .page-body {
+    font-size: 12pt;
+    font-family: "Noto Sans KR", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal; 
+  }
+
+  .category-divider {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border: 0;
+    height: 2px;
+    background: #ddd;
+  }
+
+  .sidebar-categories {
+    text-align: center;
+  }
+
+  .category-title {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  .category-box {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background: #f9f7f6;
+    border: 1px solid #ddd;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    border-radius: 3px;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+
+    font-family: "Noto Sans KR", serif;
+    font-style: normal;
+  }
+
+  .category-menu {
+    padding-left: 10px;
+  }
+
+  .category-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .category-box li {
+    /* font-family: source-sans; */
+    font-size: 16px;
+    margin: 2px 0;
+  }
+
+  .article-metadata a {
+    font-family: "Noto Sans KR", serif;
+    font-optical-sizing: auto;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .section-subheading a {
+    font-family: "Noto Sans KR", serif;
+    font-optical-sizing: auto;
+    font-size: 21px;
+    font-weight: 450;
+    font-style: normal;
+  }
+
+@media screen and (min-width: 1550px) {
+  
+  .blog-categories {
+    position: absolute;
+    top: 98px;
+    right: calc(50% - 730px); 
+    width: 220px;
+  }
+
+  .category-title {
+    font-size: 16px;
+  }
+
+  .category-box li {
+    font-size: 15px;
+  }
+}
+
+</style>

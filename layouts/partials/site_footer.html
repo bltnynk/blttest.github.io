@@ -1,0 +1,19 @@
+{{ if or (eq .Type "blog") (eq .Type "categories") }}
+  {{ partial "blog-category.js.html" . }}
+{{ end }}
+
+{{ if and (eq .Type "blog") (eq .Kind "page") }}
+    <script>
+        window.currentPostCategory = {{ index .Params.categories 0 | default "" | jsonify }};
+        window.relatedPosts = [
+        {{ range where .Site.RegularPages "Params.categories" "intersect" .Params.categories }}
+            {
+            "title": {{ .Title | jsonify }},
+            "date": {{ .Date.Format "Jan 2, 2006" | jsonify }},
+            "url": {{ .RelPermalink | jsonify }}
+            },
+        {{ end }}
+        ];
+    </script>
+    {{ partial "blog-related-posts.js.html" . }}
+{{ end }}

@@ -1,70 +1,78 @@
 # SITE SETUP
-# Guide: https://docs.hugoblox.com/tutorial/
-# Documentation: https://docs.hugoblox.com/
+# Guide: https://wowchemy.com/docs/getting-started/
+# Documentation: https://wowchemy.com/docs/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-### Appearance
-appearance:
-  theme_day: minimal
-  theme_night: minimal
-  font: minimal
-  font_size: M
+# Appearance
 
-### SEO
+appearance:
+  theme_day: Yewon
+  # theme_night: Yewon
+  font: Yewon
+  font_size: XL
+
+# SEO
+
 marketing:
   seo:
-    site_type: Jan Sobotka
+    site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'CS Master’s Student & AI/ML Research Assistant'
-    # twitter: 'GetResearchDev'
+    description: "Incoming CS PhD @ Carnegie Mellon University"
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
-    google_tag_manager: ''
-    microsoft_clarity: ''
   verification:
     google: ''
     baidu: ''
 
-### Site header
+# Site header
+
 header:
   navbar:
     enable: true
     align: l
     show_logo: true
     show_language: false
-    show_day_night: true
-    show_search: false
+    show_day_night: false
+    show_search: true
     highlight_active_link: true
 
-### Site footer
+# Site footer
+
 footer:
+  contact:
+    notice: yewonkim@andrew.cmu.edu
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: ''
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
-      share_alike: true
+      share_alike: false
       allow_commercial: false
 
-### Localization
+# Localization
+
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
   address_format: en-us
 
-### Site features
+# Site features
+
 features:
   syntax_highlighter:
-    theme_light: github-light
-    theme_dark: dracula
+    enable: true
+    extra_languages:
+      - r
+      - latex
   math:
     enable: false
   privacy_pack:
     enable: false
   repository:
-    url: "https://github.com/Johnny1188/johnny1188.github.io"
+    url: 'https://github.com/<username>/<repository>'
     content_dir: content
     branch: master
   avatar:
@@ -77,11 +85,6 @@ features:
       show_count: true
     commento:
       url: ''
-    giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
   search:
     provider: wowchemy
     algolia:
@@ -90,19 +93,21 @@ features:
       index_name: ''
       show_logo: false
   map:
-    provider: 'mapnik'
+    provider: ''
     api_key: ''
     zoom: 15
 
-### Extensions
+# Extensions
+
 extensions:
   cms:
-    branch: master
+    branch: main
     local_backend: false
   academicons:
     enable: true
 
-### Security
+# Security
+
 security:
   # Allow frame for embedding speaker notes in slides
   allow_frame: true

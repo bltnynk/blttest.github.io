@@ -1,0 +1,191 @@
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        if (!window.relatedPosts || window.relatedPosts.length === 0) {
+            console.log("⚠ No related posts found.");
+            return;
+        }
+
+        const postsPerPage = 5;
+        let currentPage = 1;
+        let totalPages = Math.ceil(window.relatedPosts.length / postsPerPage);
+        const currentPostURL = window.location.pathname;
+
+        // the index of the current post
+        console.log(window.relatedPosts)
+        let currentPostIndex = window.relatedPosts.findIndex(post => 
+            post.url.replace(/^"(.*)"$/, '$1').toLowerCase() === currentPostURL
+        );
+        let defaultPage = currentPostIndex !== -1 ? Math.floor(currentPostIndex / postsPerPage) + 1 : 1;
+
+        function showPage(page) {
+            currentPage = page;
+            const listContainer = document.querySelector("#related-posts-list");
+            listContainer.innerHTML = ""; // clear list
+
+            window.relatedPosts.slice((page - 1) * postsPerPage, page * postsPerPage).forEach((post, index, array) => {
+                let postItem = document.createElement("div");
+                postItem.classList.add("related-post-item");
+
+                // strip quotes
+                let title = post.title.replace(/^"(.*)"$/, '$1'); 
+                let date = post.date.replace(/^"(.*)"$/, '$1');
+                let postURL = post.url.replace(/^"(.*)"$/, '$1');
+
+                // highlight the current post
+                if (postURL === currentPostURL) {
+                    postItem.classList.add("current-post");
+                }
+
+                postItem.innerHTML = `
+                    <div class="related-post-content">
+                        <a href=${post.url} class="related-post-title">${title}</a>
+                        <span class="related-post-date">${date}</span>
+                    </div>
+                    
+                `;
+
+                listContainer.appendChild(postItem);
+            });
+
+            updatePagination();
+        }
+
+        function updatePagination() {
+            const paginationContainer = document.querySelector("#related-posts-pagination");
+            paginationContainer.innerHTML = ""; // Clear pagination
+
+            for (let i = 1; i <= totalPages; i++) {
+                let pageLink = document.createElement("a");
+                pageLink.href = "#";
+                pageLink.innerText = i;
+                pageLink.classList.add("page-number");
+                if (i === currentPage) {
+                    pageLink.classList.add("active");
+                }
+                pageLink.onclick = function (e) {
+                    e.preventDefault();
+                    showPage(i);
+                };
+                paginationContainer.appendChild(pageLink);
+            }
+        }
+
+        // Insert Related Posts Section Above Category Menu
+        const categoryMenu = document.querySelector(".blog-categories");
+        if (categoryMenu) {
+        let relatedPostsContainer = document.createElement("div");
+        relatedPostsContainer.innerHTML = `
+            <div class="related-posts-box">
+                <div class="related-posts-header"> 
+                    Posts in &nbsp;<i class="fas fa-folder mr-1"></i>{{ index .Params.categories 0 }}   
+                </div>
+                <div id="related-posts-list"></div>
+                <div id="related-posts-pagination"></div>
+            </div>
+        `;
+        categoryMenu.parentNode.insertBefore(relatedPostsContainer, categoryMenu);
+        }
+
+        showPage(defaultPage);
+    });
+</script>
+
+<style>
+    .related-posts-box {
+        background: #f9f7f6;
+        border: 1px solid #ddd;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        border-radius: 3px;
+        margin-top: 120px;
+        margin-bottom: 10px;
+    }
+
+    .related-posts-header {
+        font-size: 17px;
+        font-weight: 500;
+        margin-bottom: 8px;
+    }
+
+    .related-post-item {
+        display: flex;
+        flex-direction: column;
+        padding: 2px 0;
+    }
+
+    .related-post-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .related-post-title {
+        text-decoration: none;
+        flex: 1; /* make the title take available space */
+    }
+
+    .related-post-title:hover {
+        text-decoration: underline;
+    }
+
+    .related-post-date {
+        color: gray;
+        font-size: 14px;
+        text-align: right;
+        white-space: nowrap;
+    }
+
+    .related-post-divider {
+        border: 0;
+        height: 1px;
+        background: #ddd;
+        margin: 8px 0;
+    }
+
+    #related-posts-pagination {
+        text-align: center;
+        /* margin-top: 10px; */
+    }
+
+    #related-posts-pagination .page-number {
+        display: inline-block;
+        margin: 0 2px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    #related-posts-pagination .page-number:hover {
+        text-decoration: underline;
+    }
+
+    #related-posts-pagination .active {
+        font-weight: 450;
+        text-decoration: underline;
+        cursor: default;
+        color: black;
+        border: none;
+        padding: 5px 10px;
+    }
+
+    .current-post {
+        font-weight: 600;
+        text-decoration: underline;
+        color: black;
+    }
+
+    .current-post a {
+        pointer-events: none; /* disable clicking on the current post */
+        cursor: default;
+    }
+
+    @media screen and (min-width: 1550px) {
+        .related-posts-box {
+            margin-bottom: 40px;
+        }
+    }
+
+</style>
